@@ -11,3 +11,19 @@ body div#wall #tag-3.slick {
 div#wall #tag-4 {
   display: none;
 }
+body div#wall .parent #tag-5.slick {
+  z-index: 10;
+  display: block;
+}
+
+div#wall div.parent div:last-child div#tag-6 {
+  background: url(../images/tag-6.png) no-repeat;
+  z-index: 2;
+  display: block;
+}
+
+body div#wall div.parent div > #tag-7.slick {
+  background: url(../images/tag-7.png) no-repeat;
+  z-index: 1;
+  display: block;
+}
